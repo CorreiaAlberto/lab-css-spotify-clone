@@ -9,20 +9,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 #navbar {
+    width: 100%;
     position: fixed; top:0;
     display: flex;
     text-align: flex-end;
     list-style: none;
     
 }
-#navbar ul {
+#navbar ul{
     display: flex;
     flex-direction: row;
     list-style: none;
     align-items: flex-end;
     float: inline-end;
 }
-/* no consigo poner la Ul del nav a la derecha*/
 
 #navbar li {
     padding: 10px;
@@ -30,6 +30,7 @@ body {
 #spotylogo {
     height: 60px;
     width: 200px;
+    text-align: center;
 }
 .hero {
     background-image: url('../images/landing.jpg');
@@ -53,13 +54,14 @@ body {
     text-align: center;
     text-decoration: underline #00B172;
     font-size: 3vw;
+    margin-bottom: 100px;
   }
   #section2 p {
       color: lightgray;
   }
   .sec2img {
-      height: 50px;
-      width: 50px;
+      height: 150px;
+      width: 150px;
   }
   .row {
     display: flex;
